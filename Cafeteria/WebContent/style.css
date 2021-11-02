@@ -1,0 +1,21 @@
+@charset "UTF-8";
+h1 {
+	color: #800000
+}
+
+#arriba {
+	color: purple
+}
+
+#medio {
+	color: orange
+	
+}
+
+#bajo{
+	color: red
+}
+
+#up {
+	align: center
+}
