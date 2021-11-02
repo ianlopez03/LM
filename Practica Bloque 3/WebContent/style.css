@@ -1,8 +1,13 @@
 @charset "UTF-8";
-h1 {
+h1{
 	color: blue
 }
+function funcion_nom() {
+  var nom = document.getElementById("name").value;
+  alert ('bienvenido ' + nom)
+}
 
-#cuadrado {
-	
-} 
+function funcion_edad() {
+  var age = document.getElementById("age").value;
+  alert ('con ' + age + ' ya tendrás el carnet de conducir. ¿no?')
+}

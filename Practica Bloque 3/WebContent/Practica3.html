@@ -5,9 +5,19 @@
 <link rel="stylesheet" href="style.css">
 <title>Practica Bloque 3</title>
 </head>
+<script>
+function funcion_nom() {
+  var nom = document.getElementById("name").value;
+  alert ('bienvenido ' + nom)
+  var age = document.getElementById("age").value;
+	  alert ('con ' + age + ' ya tendrás el carnet de conducir. ¿no?')
+}
+
+
+</script>
 <body>
 <h1>Practica Bloque 3</h1>
-
-
+Introduce tu nombre:  <input type="text" id="name" onblur="funcion_nom()">
+Introduce tu apellido: <input type="text" id="age" onchange="funcion_edad()">
 </body>
 </html>
