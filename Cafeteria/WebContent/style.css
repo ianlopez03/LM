@@ -4,18 +4,23 @@ h1 {
 }
 
 #arriba {
-	color: purple
+	color: purple;
+	text-align: left;
 }
 
 #medio {
-	color: orange
+	color: orange;
+	position: relative;
+	left: 485px;
+
 	
 }
 
 #bajo{
-	color: red
+	color: red;
+	position: relative;
+	left: 825px;
+
+	
 }
 
-#up {
-	align: center
-}
